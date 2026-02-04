@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimidia Casa Vacanze | Tra Mare e Montagna – Carini, Palermo</title>
+    <link rel="icon" href="logo.jpg" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-papTgkAgF6DHQps4jzFqXTmFChFbRpiEuk+xO+Uuk6A3pFP6Y65IG9Bp6PA2XvwFyKxJQfaJTOkB3Vr+VsyYkg==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+
+<div id="cookie-banner">
+    <p>
+        Questo sito utilizza servizi di terze parti per contenuti interattivi e performance del sito, tra cui:
+        <strong>Google Maps</strong> per la visualizzazione delle mappe,
+        <strong>Google Fonts</strong> e la libreria <strong>AOS (Animate On Scroll)</strong> per animazioni e grafica,
+        e <strong>Google Search Console</strong> per monitorare le performance e l’indicizzazione delle pagine.
+        Google Maps potrebbe installare cookie di terze parti e raccogliere dati come l’indirizzo IP,
+        mentre Google Fonts, AOS e Search Console non tracciano direttamente gli utenti.
+        <a href="/privacy.html" target="_blank" rel="noopener">Scopri di più</a>.
+    </p>
+    <button id="accept-cookies">OK</button>
+</div>
+
+<!-- Navbar -->
+<header class="navbar" id="navbar">
+    <img src="logo.jpg" alt="Alma Favignana logo" class="logo">
+    <div class="menu-toggle" id="menu-toggle" aria-label="Apri menu">&#9776;</div>
+    <nav class="nav-links" id="nav">
+        <a href="#hero">Home</a>
+        <a href="#about">Chi siamo</a>
+        <a href="#servizi">Cosa offriamo</a>
+        <a href="#gallery">Atleti</a>
+        <a href="#contact">Contatti</a>
+    </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content" data-aos="fade-up">
+        <h1>Dimidia Casa Vacanze</h1>
+        <p>
+            Tra mare e montagna, immersa nel Parco degli Ulivi di Carini.
+        </p>
+        <a href="#alloggio" class="btn">Scopri la casa</a>
+    </div>
+
+    <div class="hero-wave">
+        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path d="M0,224 C360,300 1080,160 1440,240 L1440,320 L0,320 Z"></path>
+        </svg>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-section" id="about">
+    <div class="about-content" data-aos="fade-up">
+        <h2>Chi Siamo</h2>
+
+        <p>
+            <strong>Dimidia Casa Vacanze</strong> è composta da due case indipendenti situate all’interno del Parco degli Ulivi di Carini, in una posizione tranquilla tra mare e montagna.
+            Abbiamo creato uno spazio pensato per chi cerca privacy, silenzio e contatto con la natura, senza rinunciare a comfort e servizi moderni.
+        </p>
+
+        <p>
+            Le nostre due abitazioni – una da 35 m² con una camera da letto e una da 70 m² con due camere – sono completamente attrezzate e autonome, ideali per coppie, famiglie e piccoli gruppi di viaggiatori.
+            Ogni casa dispone di ingresso indipendente, cucina privata, bagno, aria condizionata, WiFi gratuito e spazi esterni con vista panoramica.
+        </p>
+
+        <p>
+            Ci troviamo in una posizione strategica: a pochi minuti dall’aeroporto Falcone-Borsellino, dalla stazione ferroviaria e dalle spiagge della costa palermitana.
+            Questo rende Dimidia un’ottima scelta sia per soggiorni brevi di passaggio sia per vacanze più lunghe alla scoperta della Sicilia occidentale.
+        </p>
+
+        <p>
+            Prestiamo particolare attenzione al comfort dei nostri ospiti: letti confortevoli, biancheria di qualità, cucine attrezzate e aree esterne dove rilassarsi ammirando il panorama su mare, montagna e uliveti.
+        </p>
+
+        <p>
+            Siamo sempre disponibili per fornire consigli su spiagge, ristoranti, itinerari naturalistici e luoghi da visitare, aiutandoti a vivere un’esperienza autentica e personalizzata in Sicilia.
+        </p>
+
+        <p>
+            Scegliere <strong>Dimidia Casa Vacanze</strong> significa soggiornare in un ambiente indipendente, tranquillo e immerso nella natura, con tutti i comfort necessari per sentirsi davvero a casa.
+        </p>
+    </div>
+</section>
+
+<!-- SEZIONE SCELTA ALLOGGI -->
+<section class="case-section" id="case">
+    <div class="container">
+
+        <h2 class="section-title" data-aos="fade-up">
+            Scegli la tua Casa a Dimidia
+        </h2>
+        <p class="section-subtitle" data-aos="fade-up">
+            Due soluzioni indipendenti immerse tra mare e montagna, nel Parco degli Ulivi di Carini.
+        </p>
+
+        <div class="case-grid">
+
+            <!-- CARD CASA 1 -->
+            <div class="case-card" data-aos="fade-right">
+                <div class="case-img">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/778140824.jpg?k=2ceabf5c26525d9ad5796a2697bf472b0cd92777b085c6557997c52f97cc155a&o=" alt="Dimidia Casa 1">
+                    <span class="badge">35 m²</span>
+                </div>
+
+                <div class="case-content">
+                    <h3>Casa con 1 Camera</h3>
+                    <ul>
+                        <li>✔ Intera casa indipendente</li>
+                        <li>✔ Vista mare e montagna</li>
+                        <li>✔ Terrazza & patio</li>
+                        <li>✔ Cucina privata</li>
+                        <li>✔ WiFi + Netflix</li>
+                        <li>✔ Ideale per 2 persone</li>
+                    </ul>
+
+                    <div class="case-footer">
+                        <a href="casa-1.html" class="btn-primary">Scopri di più</a>
+                        <a href="TUA_PAGINA_BOOKING_QUI" class="btn-secondary">Prenota</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD CASA 2 -->
+            <div class="case-card" data-aos="fade-left">
+                <div class="case-img">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/777850744.jpg?k=5344b41e5a1eeb655197044acfed08444a6d206a83b240346373c0a1e99022a4&o=" alt="Dimidia Casa 2">
+                    <span class="badge">70 m²</span>
+                </div>
+
+                <div class="case-content">
+                    <h3>Casa con 2 Camere</h3>
+                    <ul>
+                        <li>✔ 2 camere + divano letto</li>
+                        <li>✔ Vista mare e giardino</li>
+                        <li>✔ Terrazza & patio</li>
+                        <li>✔ Cucina con lavastoviglie</li>
+                        <li>✔ WiFi + Netflix</li>
+                        <li>✔ Ideale per 4–5 persone</li>
+                    </ul>
+
+                    <div class="case-footer">
+                        <a href="casa-2.html" class="btn-primary">Scopri di più</a>
+                        <a href="TUA_PAGINA_BOOKING_QUI" class="btn-secondary">Prenota</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Counter animati -->
+<section id="counters" class="counter-section" data-aos="fade-up">
+    <h2>Dimidia in numeri</h2>
+
+    <div class="counter-container">
+
+        <div class="counter-box">
+            <span class="counter" data-target="2">0</span>
+            <p>Case indipendenti</p>
+        </div>
+
+        <div class="counter-box">
+            <span class="counter" data-target="70">0</span>
+            <p>Metri quadri totali</p>
+        </div>
+
+        <div class="counter-box">
+            <span class="counter" data-target="5">0</span>
+            <p>Posti letto complessivi</p>
+        </div>
+
+        <div class="counter-box">
+            <span class="counter" data-target="1">0</span>
+            <p>Parco degli Ulivi</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Reviews -->
+<section id="reviews" class="reviews-section" data-aos="fade-up">
+    <h2>Dicono di noi</h2>
+
+    <div class="reviews-container">
+
+        <div class="review-card">
+            <p class="review-text">
+                "Casa accogliente, pulita e in una posizione meravigliosa tra mare e montagna.
+                La terrazza con vista è il punto forte! Torneremo sicuramente."
+            </p>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-author">— Anna & Marco</p>
+        </div>
+
+        <div class="review-card">
+            <p class="review-text">
+                "Perfetta per chi cerca tranquillità e natura senza rinunciare ai comfort.
+                Ottima posizione vicino aeroporto e spiagge. Host gentilissimi."
+            </p>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-author">— Famiglia R.</p>
+        </div>
+
+        <div class="review-card">
+            <p class="review-text">
+                "Soggiorno stupendo! Casa pulita, ben attrezzata e immersa nel verde degli ulivi.
+                Vista spettacolare e totale relax."
+            </p>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-author">— Luca P.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Galleria -->
+<section id="gallery" class="gallery-section" data-aos="fade-up">
+    <h2>La nostra struttura</h2>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <img src="img/casa1-esterno.jpg" alt="Dimidia Casa 1 - Esterno">
+                <p class="caption">
+                    Casa 1 - Esterno
+                </p>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img/casa1-camera.jpg" alt="Dimidia Casa 1 - Camera da letto">
+                <p class="caption">
+                    Casa 1 - Camera da letto
+                </p>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img/casa2-soggiorno.jpg" alt="Dimidia Casa 2 - Soggiorno">
+                <p class="caption">
+                    Casa 2 - Soggiorno
+                </p>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img/casa2-terrazza.jpg" alt="Dimidia Casa 2 - Terrazza">
+                <p class="caption">
+                    Casa 2 - Terrazza con vista
+                </p>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="img/parco-ulivi.jpg" alt="Parco degli Ulivi - Dimidia">
+                <p class="caption">
+                    Parco degli Ulivi
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Pagination + Navigation -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="faq-section" data-aos="fade-up">
+
+    <h2 class="faq-title">Domande Frequenti</h2>
+
+    <div class="faq-container">
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Come posso prenotare una casa?
+                <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Puoi prenotare direttamente tramite il nostro sito, contattarci via WhatsApp o telefono, oppure tramite la pagina Booking delle nostre case.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Quali servizi sono inclusi?
+                <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Le case dispongono di cucina completa, bagno privato, aria condizionata, WiFi gratuito, TV con servizi streaming, terrazza o patio, biancheria da letto e asciugamani inclusi.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                È possibile portare animali domestici?
+                <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Al momento non sono ammessi animali domestici per garantire la massima igiene e comfort a tutti gli ospiti.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Come funziona il check-in e il check-out?
+                <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Il check-in è a partire dalle 15:00 e il check-out entro le 11:00. Possiamo concordare orari flessibili su richiesta.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Le case sono adatte a famiglie con bambini?
+                <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Sì, entrambe le case sono adatte a famiglie. La Casa 2 è ideale per gruppi più grandi o famiglie con bambini grazie alle due camere e al divano letto nel soggiorno.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                È possibile fumare all’interno delle case?
+                <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>No, il divieto di fumo è valido in tutte le abitazioni per la sicurezza e il comfort di tutti gli ospiti.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Le case sono accessibili a persone con disabilità?
+                <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+                <p>Sì, le abitazioni sono accessibili a ospiti con disabilità uditiva e presentano ingressi indipendenti a piano terra.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<a href="https://wa.me/393286745607" class="whatsapp" target="_blank" rel="noopener noreferrer">
+    <img src="Digital_Glyph_Green.png" alt="WhatsApp" />
+</a>
+
+<!-- Contatti / Prenotazioni -->
+<section id="contact" class="cta" data-aos="fade-up">
+    <h2>Dove trovarci</h2>
+
+
+    <div class="contact-container">
+
+        <!-- Map -->
+        <div class="map-wrapper" id="map-container">
+            <div class="map-placeholder">
+                <p>Accetta i cookie per visualizzare la mappa.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="footer-content">
+
+            <!-- Logo / Nome -->
+            <div class="footer-logo">
+                <h3>Dimidia Casa Vacanze</h3>
+                <p>Tra mare e montagna | Parco degli Ulivi, Carini (PA)</p>
+            </div>
+
+            <!-- Contatti -->
+            <div class="footer-contact">
+                <h4>Contatti</h4>
+                <p>Host Manuel: +39 392 062 7559</p>
+                <p>Host Denise: +39 393 938 268720</p>
+                <p>Indirizzo: Parco degli Ulivi, Carini, Palermo</p>
+            </div>
+
+            <!-- Social -->
+            <div class="footer-social">
+                <h4>Seguici</h4>
+                <div class="social-icons">
+                    <a href="https://www.booking.com/hotel/it/dimidia-casa-vacanze-tra-il-mare-e-la-montagna.it.html?utm_source=ig&utm_medium=social&utm_content=link_in_bio"
+                       target="_blank" aria-label="Booking.com">
+                        <img src="booking-com-icon-logo.png" alt="Booking.com">
+                    </a>
+                    <a href="https://www.instagram.com/pps_sportmanagement/" target="_blank" aria-label="Instagram">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram">
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                &copy; 2026 Dimidia Casa Vacanze. Tutti i diritti riservati. |
+                <a href="privacy.html">Privacy Policy</a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+<!-- Script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+    AOS.init({ duration: 800, once: true });
+</script>
+</body>
+</html>
